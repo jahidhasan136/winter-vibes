@@ -17,28 +17,28 @@ const Services = () => {
                 <BiSolidPhoneCall className='text-4xl'></BiSolidPhoneCall>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Call Us Anytime</h2>
-                    <p>+1 &#40;250&#41; 444 5555</p>
+                    <p className='text-[#7B7B7B]'>+1 &#40;250&#41; 444 5555</p>
                 </div>
             </div>
             <div className='flex items-center gap-5'>
                 <FaShippingFast className='text-4xl'></FaShippingFast>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Free Shipping</h2>
-                    <p>When you spend $100+</p>
+                    <p className='text-[#7B7B7B]'>When you spend $100+</p>
                 </div>
             </div>
             <div className='flex items-center gap-5'>
                 <TbReload className='text-4xl'></TbReload>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Free Returns</h2>
-                    <p>30-days free return policy</p>
+                    <p className='text-[#7B7B7B]'>30-days free return policy</p>
                 </div>
             </div>
             <div className='flex items-center gap-5 relative'>
                 <BiSolidLock className='text-4xl'></BiSolidLock>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Secured Payment</h2>
-                    <p>We accept all major credit cards.</p>
+                    <p className='text-[#7B7B7B]'>We accept all major credit cards.</p>
                 </div>
                 <div>
                     <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-36 -top-[55px]">

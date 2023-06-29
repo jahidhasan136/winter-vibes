@@ -13,7 +13,7 @@ const Banner = () => {
             <div className='w-1/2'>
                 <h2 className='text-2xl mb-[10px]'>Trendy Collection&#39;s</h2>
                 <h1 className="capitalize text-7xl mb-5 leading-[100px] h-[196px] font_caprasimo">Discover <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Fashion</span> & build A <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Better</span> you</h1>
-                <p className='text-lg'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
+                <p className='text-lg text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
                 <div className='flex items-center'>
                     <button className="btn_custom -mr-3">Start Shoping</button>
                     <div className='relative inline-block rounded-full mt-10'>
