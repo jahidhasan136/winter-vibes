@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className='flex gap-[115px] items-center'>
                 <div className='flex gap-[5px] items-center'>
                     <img className='w-7' src={logo} alt="" />
-                    <h2 className='font-bold'>Cadress</h2>
+                    <h2 className='font_caprasimo'>Cadress</h2>
                 </div>
                 <div className='flex gap-10'>
                     <Link>New</Link>
