@@ -7,7 +7,7 @@ const ShopEdit = () => {
     return (
         <div className="mt-[120px] container mx-auto text-center">
             <h1 className='text-[42px] font_caprasimo mb-[10px]'><span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Shop The</span> Edit</h1>
-            <p className='text-lg mb-10 w-[606px] mx-auto'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
+            <p className='text-lg mb-10 w-[606px] mx-auto text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
             <div className='flex gap-6 justify-center'>
                 <div className='relative'>
                     <img src={product1} alt="" />
