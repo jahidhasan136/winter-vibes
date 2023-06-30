@@ -27,6 +27,9 @@ const Navbar = () => {
                     <Link>Sale</Link>
                 </div>
             </div>
+
+            {/* TODO: badge incomplete */}
+
             <div className='flex items-center gap-6'>
                 <FiSearch className='text-[26px]'></FiSearch>
                 <div className='border border-[#7B7B7B] h-4'></div>
