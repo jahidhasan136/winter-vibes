@@ -7,8 +7,7 @@ import badge from '../../../assets/navbar/badge.png'
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-between container mx-auto
-        text-lg mt-[57px]'>
+        <div className='flex items-center justify-between container mx-auto text-lg mt-[57px]'>
             <div className='flex gap-[115px] items-center'>
                 <div className='flex gap-[5px] items-center'>
                     <img className='w-7' src={logo} alt="" />
