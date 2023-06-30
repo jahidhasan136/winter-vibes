@@ -12,7 +12,7 @@ const LiteratureSection = () => {
                     <button className="btn_custom">Shop It Now</button>
                 </div>
             </div>
-            <div className='mt-[38px] mb-[38px] flex justify-center items-center'>
+            <div className='mt-[38px] flex justify-center items-center'>
                 <div className='w-[580px] bg-[#E8E8E8] text-center py-[130px] pr-[50px] pl-[26px]'>
                     <h1 className='text-[42px] font_caprasimo mb-[10px]'>Day to Night</h1>
                     <p className='text-lg text-[#7B7B7B] mb-10'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
