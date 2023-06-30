@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import PopularProducts from "../PopularProducts/PopularProducts";
 import Services from "../Services/Services";
 import ShopEdit from "../ShopEdit/ShopEdit";
+import VideoSection from "../VideoSection/VideoSection";
 import WinterLooks from "../WinterLooks/WinterLooks";
 
 
@@ -13,6 +14,7 @@ const Home = () => {
             <ShopEdit></ShopEdit>
             <PopularProducts></PopularProducts>
             <WinterLooks></WinterLooks>
+            <VideoSection></VideoSection>
         </div>
     );
 };
