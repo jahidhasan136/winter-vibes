@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import LiteratureSection from "../LiteratureSection/LiteratureSection";
 import PopularProducts from "../PopularProducts/PopularProducts";
 import Services from "../Services/Services";
 import ShopEdit from "../ShopEdit/ShopEdit";
@@ -15,6 +16,7 @@ const Home = () => {
             <PopularProducts></PopularProducts>
             <WinterLooks></WinterLooks>
             <VideoSection></VideoSection>
+            <LiteratureSection></LiteratureSection>
         </div>
     );
 };

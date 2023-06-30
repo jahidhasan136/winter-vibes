@@ -15,6 +15,15 @@
     font-size: 18px;
 }
 
+.btn_custom_black {
+    border-radius: 70px;
+    background: var(--80, #313131);
+    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.25);
+    padding: 23px 35px;
+    color: white;
+    font-size: 18px;
+}
+
 
 .font_caprasimo {
     font-family: 'Caprasimo', cursive;

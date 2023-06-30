@@ -5,7 +5,7 @@ import videoIcon from '../../../assets/video/videoIcon.png'
 
 const VideoSection = () => {
     return (
-        <div className="mt-[120px] mb-[120px] container mx-auto">
+        <div className="mt-[120px] container mx-auto">
             <div className='flex gap-6 justify-center'>
                 <div className='relative'>
                     <img src={picture1} alt="" />

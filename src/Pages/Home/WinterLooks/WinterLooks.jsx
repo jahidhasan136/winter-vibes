@@ -12,6 +12,9 @@ import moneyIcon from '../../../assets/winter_looks/moneyIcon.png'
 
 const WinterLooks = () => {
     return (
+
+        // TODO: carousel incomplete
+
         <div className="mt-[120px] container mx-auto grid justify-center">
             <h1 className='text-[42px] font_caprasimo mb-10'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Winter</span> Day Looks</h1>
             <div className='grid grid-cols-4 gap-6'>
