@@ -69,7 +69,7 @@ const Footer = () => {
                 <div className='flex items-center gap-14'>
                     <div className='flex items-center gap-[6px]'>
                         <img src={logo} alt="" />
-                        <h2 className='font_caprasimo text-lg'>Cardress</h2>
+                        <h2 className='font_caprasimo text-lg'>Cadress</h2>
                     </div>
                     <p>Copyright &#169; 2023. All Rights Reserved.</p>
                 </div>
