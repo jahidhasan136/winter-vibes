@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import Comments from "../Comments/Comments";
 import LiteratureSection from "../LiteratureSection/LiteratureSection";
@@ -12,6 +13,9 @@ import WinterLooks from "../WinterLooks/WinterLooks";
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Home | Winter Vibes</title>
+            </Helmet>
             <Banner></Banner>
             <Services></Services>
             <ShopEdit></ShopEdit>

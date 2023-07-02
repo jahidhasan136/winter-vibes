@@ -1,47 +1,55 @@
 [
     {
+        "id": 1,
         "img": "https://i.ibb.co/zF00TJB/picture-1.png",
         "passion": "Fashion Designer",
         "name": "Ricad Placker",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 2,
         "img": "https://i.ibb.co/yy08TBH/picture-2.png",
         "passion": "Maci Designer",
         "name": "Ricad Placker",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 3,
         "img": "https://i.ibb.co/ZHt7Jr2/picture-3.png",
         "passion": "Knish Designer",
         "name": "Ricad Placker",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 4,
         "img": "https://i.ibb.co/zF00TJB/picture-1.png",
         "passion": "Chef",
         "name": "Marcus Ramirez",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 5,
         "img": "https://i.ibb.co/yy08TBH/picture-2.png",
         "passion": "Graphic Designer",
         "name": "Sophie Anderson",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 6,
         "img": "https://i.ibb.co/ZHt7Jr2/picture-3.png",
         "passion": "Environmental Activist",
         "name": "David Green",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 7,
         "img": "https://i.ibb.co/zF00TJB/picture-1.png",
         "passion": "Fitness Trainer",
         "name": "Jessica Roberts",
         "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature."
     },
     {
+        "id": 8,
         "img": "https://i.ibb.co/yy08TBH/picture-2.png",
         "passion": "Travel Blogger",
         "name": "Mark Turner",
