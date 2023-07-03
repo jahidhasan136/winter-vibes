@@ -9,7 +9,7 @@ import { AiOutlineBars } from 'react-icons/ai'
 
 const Banner = () => {
     return (
-        <div className='container mt-[99px] mx-auto md:flex justify-between'>
+        <div className='container mt-[35px] md:mt-[99px] mx-auto md:flex justify-between p-5'>
             <div className='md:w-1/2'>
                 <h2 className='text-xl md:text-2xl mb-[6px] md:mb-[10px]'>Trendy Collection&#39;s</h2>
                 <h1 className="capitalize text-3xl md:text-7xl mb-[10px] md:mb-5 md:leading-[100px] md:h-[196px] font_caprasimo">Discover <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Fashion</span> & build A <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Better</span> you</h1>
@@ -18,7 +18,7 @@ const Banner = () => {
                     <button className="btn_custom -mr-3">Start Shoping</button>
                     <div className='relative inline-block rounded-full mt-10'>
                         <img className='' src={bg_white} alt="" />
-                        <img className='absolute top-14 left-[67px]' src={videoIcon} alt="" />
+                        <img className='absolute top-12 md:top-14 left-[57px] md:left-[67px]' src={videoIcon} alt="" />
                     </div>
                     <p className='text-lg font_caprasimo'>Play Video</p>
                 </div>

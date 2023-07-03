@@ -24,7 +24,7 @@ const Home = () => {
             <VideoSection></VideoSection>
             <LiteratureSection></LiteratureSection>
             <Comments></Comments>
-            {/* <RecommendSites></RecommendSites> */}
+            <RecommendSites></RecommendSites>
         </div>
     );
 };

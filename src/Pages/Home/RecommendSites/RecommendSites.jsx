@@ -5,7 +5,7 @@ import docco from '../../../assets/sites/docco.png'
 
 const RecommendSites = () => {
     return (
-        <div className='mt-[135px] container mx-auto flex justify-center gap-[101px]'>
+        <div className='mt-[70px] md:mt-[135px] container mx-auto md:flex grid justify-center gap-[60px] md:gap-[101px]'>
             <div className='flex items-center gap-5'>
                 <img src={mart} alt="" />
                 <h3 className='font-bold text-2xl'>Happy Mart</h3>

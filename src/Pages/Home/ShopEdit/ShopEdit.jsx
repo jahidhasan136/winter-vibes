@@ -5,7 +5,7 @@ import product4 from '../../../assets/shopedit/product_4.png'
 
 const ShopEdit = () => {
     return (
-        <div className="mt-[60px] md:mt-[120px] container mx-auto text-center">
+        <div className="mt-[60px] md:mt-[120px] container mx-auto text-center p-5">
             <h1 className='text-3xl md:text-[42px] font_caprasimo mb-[5px] md:mb-[10px]'><span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Shop The</span> Edit</h1>
             <p className='text-lg mb-5 md:mb-10 md:w-[606px] mx-auto text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
             <div className='md:flex grid gap-3 md:gap-6 justify-center'>

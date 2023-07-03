@@ -9,7 +9,7 @@ import logo from '../../../assets/navbar/logo.png'
 
 const Footer = () => {
     return (
-        <div className="bg_gradient mt-[120px]">
+        <div className="bg_gradient mt-[60px] md:mt-[120px]">
             <div className="container mx-auto md:flex justify-center gap-[239px] pt-[39px]">
                 <div className='flex justify-center gap-[50px] md:gap-[103px]'>
                     <div>
