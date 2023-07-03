@@ -13,11 +13,11 @@ const ShopEdit = () => {
                     <img src={product1} alt="" />
                     <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>women</p>
                 </div>
-                <div className='relative mx-auto'>
+                <div className='relative mx-auto md:mx-0'>
                     <img src={product2} alt="" />
                     <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>men</p>
                 </div>
-                <div className='grid gap-3 md:gap-6 mx-auto'>
+                <div className='grid gap-3 md:gap-6 mx-auto md:mx-0'>
                     <div className='relative'>
                         <img src={product3} alt="" />
                         <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>bagpack</p>
