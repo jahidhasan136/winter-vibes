@@ -3,7 +3,7 @@ import subscribe from '../../../assets/literature/day_to_night.png'
 
 const LiteratureSection = () => {
     return (
-        <div className="mt-[120px] container mx-auto p-5">
+        <div className="mt-[60px] md:mt-[120px] container mx-auto p-5">
             <div className='md:flex items-center grid gap-[20px] md:gap-[76px] justify-center mx-auto'>
                 <img src={seller} alt="" />
                 <div className='md:w-1/3'>

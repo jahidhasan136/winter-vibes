@@ -24,10 +24,10 @@ const Comments = () => {
 
 
     return (
-        <div className="container mx-auto mt-[120px] text-center">
-            <h1 className='text-[42px] font_caprasimo mb-[62px]'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Happy</span> Commenters</h1>
+        <div className="container mx-auto mt-[60px] md:mt-[120px] text-center">
+            <h1 className='text-3xl md:text-[42px] font_caprasimo mb-[32px] md:mb-[62px]'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Happy</span> Commenters</h1>
             <div className='flex justify-center'>
-                <div className='grid grid-cols-3 gap-6 justify-center mb-10'>
+                <div className='grid md:grid-cols-3 gap-6 justify-center mb-10'>
                     {
                         comment?.slice(0, 3).map(item => <AllComments key={item.id} item={item}></AllComments>)
                     }

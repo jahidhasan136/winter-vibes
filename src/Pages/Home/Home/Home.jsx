@@ -23,7 +23,7 @@ const Home = () => {
             <WinterLooks></WinterLooks>
             <VideoSection></VideoSection>
             <LiteratureSection></LiteratureSection>
-            {/* <Comments></Comments> */}
+            <Comments></Comments>
             {/* <RecommendSites></RecommendSites> */}
         </div>
     );
