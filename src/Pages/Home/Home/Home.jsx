@@ -18,13 +18,13 @@ const Home = () => {
             </Helmet>
             <Banner></Banner>
             <Services></Services>
-            <ShopEdit></ShopEdit>
-            <PopularProducts></PopularProducts>
-            <WinterLooks></WinterLooks>
-            <VideoSection></VideoSection>
-            <LiteratureSection></LiteratureSection>
-            <Comments></Comments>
-            <RecommendSites></RecommendSites>
+            {/* <ShopEdit></ShopEdit> */}
+            {/* <PopularProducts></PopularProducts> */}
+            {/* <WinterLooks></WinterLooks> */}
+            {/* <VideoSection></VideoSection> */}
+            {/* <LiteratureSection></LiteratureSection> */}
+            {/* <Comments></Comments> */}
+            {/* <RecommendSites></RecommendSites> */}
         </div>
     );
 };

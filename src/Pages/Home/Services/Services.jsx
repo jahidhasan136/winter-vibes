@@ -12,7 +12,7 @@ import person6 from '../../../assets/services/person_6.png'
 
 const Services = () => {
     return (
-        <div className='container mx-auto flex justify-between mt-[90px]'>
+        <div className='container mx-auto md:flex grid gap-5 md:gap-0 justify-between mt-[90px]'>
             <div className='flex items-center gap-5'>
                 <BiSolidPhoneCall className='text-4xl'></BiSolidPhoneCall>
                 <div className='text-lg'>
@@ -41,7 +41,7 @@ const Services = () => {
                     <p className='text-[#7B7B7B]'>We accept all major credit cards.</p>
                 </div>
                 <div>
-                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-36 -top-[55px]">
+                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-20 md:-right-36 -top-[45px] md:-top-[55px]">
                         <div className="avatar">
                             <div className="w-12">
                                 <img src={person1} />

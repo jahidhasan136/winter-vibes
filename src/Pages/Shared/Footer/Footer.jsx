@@ -10,8 +10,8 @@ import logo from '../../../assets/navbar/logo.png'
 const Footer = () => {
     return (
         <div className="bg_gradient mt-[120px]">
-            <div className="container mx-auto flex justify-center gap-[239px] pt-[39px]">
-                <div className='flex justify-center gap-[103px]'>
+            <div className="container mx-auto md:flex justify-center gap-[239px] pt-[39px]">
+                <div className='flex justify-center gap-[50px] md:gap-[103px]'>
                     <div>
                         <h2 className="font_caprasimo text-2xl mb-[23px]">Men</h2>
                         <div className='grid gap-5'>
@@ -44,34 +44,34 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h2 className='font_caprasimo text-2xl mb-[23px]'>Follow Us</h2>
-                    <div className='flex gap-2 mb-[23px]'>
+                    <h2 className='font_caprasimo text-2xl mb-[23px] text-center md:text-start mt-5 md:mt-0'>Follow Us</h2>
+                    <div className='flex justify-center md:justify-start gap-2 mb-[23px]'>
                         <FaFacebookSquare></FaFacebookSquare>
                         <FaGooglePlusSquare></FaGooglePlusSquare>
                         <FaTwitterSquare></FaTwitterSquare>
                     </div>
                     <div className="form-control">
-                        <label className="relative flex">
-                            <input type="text" placeholder="Email Goes To Here" className="input rounded-[20px] w-[476px] h-[70px]" />
-                            <span className='w-[76px] h-[70px] flex justify-center items-center text-2xl bg-gradient-to-b from-[#722CFF] to-[#A346EF] text-white absolute right-0 rounded-r-[20px]'><MdOutlineKeyboardArrowRight></MdOutlineKeyboardArrowRight></span>
+                        <label className="relative flex justify-center">
+                            <input type="text" placeholder="Email Goes To Here" className="input rounded-[20px] md:w-[476px] h-[70px]" />
+                            <span className='md:w-[76px] h-[70px] flex justify-center items-center text-2xl bg-gradient-to-b from-[#722CFF] to-[#A346EF] text-white absolute right-24 md:right-0 rounded-r-[20px]'><MdOutlineKeyboardArrowRight></MdOutlineKeyboardArrowRight></span>
                         </label>
                     </div>
                 </div>
             </div>
-            <div className='border-b border-[#C4C4C4] w-[1160px] my-10 mx-auto'></div>
-            <div className='flex items-center justify-center gap-[250px] mb-10 '>
-                <div className='flex gap-9'>
+            <div className='border-b border-[#C4C4C4] md:w-[1160px] my-10 mx-auto'></div>
+            <div className='md:flex items-center justify-center gap-[250px] mb-10'>
+                <div className='md:flex justify-center md:justify-start grid gap-5 md:gap-9 mb-5 md:mb-0'>
                     <img src={masterCard} alt="" />
                     <img src={visa} alt="" />
                     <img src={paypal} alt="" />
                     <img src={express} alt="" />
                 </div>
-                <div className='flex items-center gap-14'>
-                    <div className='flex items-center gap-[6px]'>
+                <div className='md:flex items-center gap-14'>
+                    <div className='flex items-center justify-center md:justify-start gap-[6px] mb-2'>
                         <img src={logo} alt="" />
                         <h2 className='font_caprasimo text-lg'>Cadress</h2>
                     </div>
-                    <p>Copyright &#169; 2023. All Rights Reserved.</p>
+                    <p className='text-center md:text-start'>Copyright &#169; 2023. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
