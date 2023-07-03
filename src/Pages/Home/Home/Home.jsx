@@ -20,8 +20,8 @@ const Home = () => {
             <Services></Services>
             <ShopEdit></ShopEdit>
             <PopularProducts></PopularProducts>
-            {/* <WinterLooks></WinterLooks> */}
-            {/* <VideoSection></VideoSection> */}
+            <WinterLooks></WinterLooks>
+            <VideoSection></VideoSection>
             {/* <LiteratureSection></LiteratureSection> */}
             {/* <Comments></Comments> */}
             {/* <RecommendSites></RecommendSites> */}
