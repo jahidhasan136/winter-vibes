@@ -22,7 +22,7 @@ const Home = () => {
             <PopularProducts></PopularProducts>
             <WinterLooks></WinterLooks>
             <VideoSection></VideoSection>
-            {/* <LiteratureSection></LiteratureSection> */}
+            <LiteratureSection></LiteratureSection>
             {/* <Comments></Comments> */}
             {/* <RecommendSites></RecommendSites> */}
         </div>
