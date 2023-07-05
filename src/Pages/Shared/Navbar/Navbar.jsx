@@ -12,6 +12,7 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false)
     const [navState, setNavState] = useState(false);
+    const [isInputVisible, setInputVisible] = useState(false);
     const onNavScroll = () => {
         if (window.scrollY > 40) {
             setNavState(true);
@@ -22,6 +23,11 @@ const Navbar = () => {
     useEffect(() => {
         window.addEventListener("scroll", onNavScroll);
     }, []);
+
+    const toggleInputVisibility = () => {
+        setInputVisible(true);
+    };
+
 
     return (
         <div className={`w-full z-40 p-5 md:p-0 transition-all duration-200 ease-in-out ${navState ? 'bg-[#00000070] text-white' : 'rounded-lg z-10 w-full'}`}>
@@ -48,7 +54,13 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='flex items-center gap-6'>
-                    <FiSearch className='text-[26px]'></FiSearch>
+                    <div>
+                        {!isInputVisible ? (
+                            <FiSearch className='text-[26px]' onClick={toggleInputVisibility} />
+                        ) : (
+                            <input className='border rounded-sm pl-2 h-10' type="text" placeholder="Search" />
+                        )}
+                    </div>
                     <div className='border border-[#7B7B7B] h-4'></div>
                     <div className="indicator">
                         <span className="indicator-item rounded-full w-[18px] h-[18px] bg-gradient-to-b from-[#722CFF] to-[#A346EF] text-white flex justify-center items-center text-[10px]">2</span>
@@ -58,7 +70,7 @@ const Navbar = () => {
             </div>
 
             <div className='flex md:hidden  justify-between items-center'>
-                    <img className='w-7' src={logo} alt="" />
+                <img className='w-7' src={logo} alt="" />
                 <div className='text-2xl' onClick={() => setOpen(!open)}>
 
                     <span>
@@ -74,7 +86,7 @@ const Navbar = () => {
             </div>
             {/* mobile device */}
 
-            <div className={`flex-col gap-5 absolute  bg-[#000000a5] top-0 px-8 items-center pt-10 w-64 h-screen text-white flex md:hidden transition-all duration-300 ease-in-out ${open ? 'left-0' : '-left-64'}`}>
+            <div className={`flex-col gap-5 absolute  bg-[#000000a5] top-0 px-8 items-center pt-10 w-64 h-screen text-white flex md:hidden transition-all duration-300 ease-in-out ${open ? 'left-0 z-50' : '-left-64'}`}>
                 <div className='md:hidden grid items-center justify-between container mx-auto text-lg'>
                     <div className='grid gap-[35px] items-center'>
                         <div className='flex gap-[5px] items-center'>
@@ -94,9 +106,15 @@ const Navbar = () => {
                             <Link>Sale</Link>
                         </div>
                     </div>
-                    <div className='flex items-center gap-3 mt-5'>
-                        <FiSearch className='text-[26px]'></FiSearch>
-                        <div className='border border-[#7B7B7B] h-4'></div>
+                    <div className='grid items-center gap-3 mt-5'>
+                    <div>
+                        {!isInputVisible ? (
+                            <FiSearch className='text-[26px]' onClick={toggleInputVisibility} />
+                        ) : (
+                            <input type="text" className='px-2 w-2/3 rounded-sm text-black' placeholder="Search" />
+                        )}
+                    </div>
+                        <div className='border-b border-[#7B7B7B] my-1 w-1/3'></div>
                         <div className="indicator">
                             <span className="indicator-item rounded-full w-[18px] h-[18px] bg-gradient-to-b from-[#722CFF] to-[#A346EF] text-white flex justify-center items-center text-[10px]">2</span>
                             <AiOutlineShoppingCart className='text-[26px]'></AiOutlineShoppingCart>
