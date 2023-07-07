@@ -14,9 +14,10 @@ import moneyIcon from '../../../assets/winter_looks/moneyIcon.png'
 const WinterLooks = () => {
     return (
         <div className="mt-[60px] md:mt-[120px] container mx-auto grid justify-center">
-            <h1 className='text-3xl md:text-[42px] font_caprasimo mb-5 md:mb-10 md:ml-48 text-center md:text-start'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Winter</span> Day Looks</h1>
+            <h1 data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom" className='text-3xl md:text-[42px] font_caprasimo mb-5 md:mb-10 md:ml-48 text-center md:text-start'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Winter</span> Day Looks</h1>
 
-            <div className="carousel w-full ">
+            <div className="carousel w-full " data-aos="fade-up">
 
                 {/*  slide one */}
 
