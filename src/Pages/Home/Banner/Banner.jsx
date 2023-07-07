@@ -5,8 +5,19 @@ import star from '../../../assets/banner/star.png'
 import bg_circle from '../../../assets/banner/bg_circle.png'
 import bg_colour from '../../../assets/banner/bg_colour.png'
 import { AiOutlineBars } from 'react-icons/ai'
+import Modal from '../../Modal/Modal'
+import { useState } from 'react'
 
 const Banner = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsModalOpen(false)
+    }
     return (
         <div className='container mt-[35px] md:mt-[99px] mx-auto md:flex justify-between p-5'>
             <div className='2xl:w-1/2'>
@@ -14,9 +25,10 @@ const Banner = () => {
                 <h1 className="capitalize text-3xl md:text-7xl mb-[10px] md:mb-5 md:leading-[100px] md:h-[196px] font_caprasimo">Discover <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Fashion</span> & build A <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Better</span> you</h1>
                 <p className='md:text-lg text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
                 <div className='flex items-center gap-7 mt-3 md:mt-10'>
-                    <button className="btn_custom -mr-3">Start Shoping</button>
+                    <button className="btn_custom flex-shrink-0 -mr-3">Start Shoping</button>
                     <div className='bg-white p-5 rounded-full shadow-md'>
-                        <img className='' src={videoIcon} alt="" />
+                        <img onClick={openModal} className='cursor-pointer' src={videoIcon} alt="" />
+                        <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>
                     </div>
                     <p className='text-lg font_caprasimo'>Play Video</p>
                 </div>

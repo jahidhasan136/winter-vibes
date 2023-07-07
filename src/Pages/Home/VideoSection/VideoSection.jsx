@@ -20,11 +20,11 @@ const VideoSection = () => {
     return (
         <div className="mt-[30px] md:mt-[120px] container mx-auto">
             <div className='md:flex gap-6 justify-center'>
-                <div className='relative p-7 md:p-0' data-aos="fade-up"
+                <div className='relative p-2 md:p-0' data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
                     <img src={picture1} alt="" />
-                    <div className='bg-[#313131] w-[320px] md:w-[752px] 
-                    md:h-[628px] h-[265px] rounded-lg md:rounded-[20px] absolute md:top-0 top-7 opacity-60'></div>
+                    <div className='bg-[#313131] w-[360px] md:w-[752px] 
+                    md:h-[628px] h-[300px] rounded-lg md:rounded-[20px] absolute md:top-0 top-2 opacity-60'></div>
                     <div className='grid justify-center absolute top-14 md:top-[150px] left-0 right-0 text-center text-white'>
                         <img onClick={openModal} className='mx-auto mb-[10px] md:mb-5 cursor-pointer' src={videoIcon} alt="" />
                         <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>

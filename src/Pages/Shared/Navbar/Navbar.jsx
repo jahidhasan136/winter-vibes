@@ -41,17 +41,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full z-40 p-5 md:p-0 transition-all duration-200 ease-in-out ${
-        navState ? 'bg-black text-white' : 'rounded-lg z-10 w-full'
-      }`}
+      className={`w-full z-40 p-5 md:p-0 transition-all duration-200 ease-in-out ${navState ? 'bg-black text-white' : 'rounded-lg z-10 w-full'
+        }`}
     >
       {/* Desktop Device */}
       <div className="hidden md:flex items-center justify-between container mx-auto text-lg mt-[57px]">
         <div className="flex gap-[115px] items-center">
-          <div className="flex gap-[5px] items-center">
-            <img className="w-7" src={logo} alt="" />
-            <h2 className="font_caprasimo">Cadress</h2>
-          </div>
+          <img src={logo} alt="" />
           <div className="flex gap-10">
             <Link>New</Link>
             <Link>Dresses</Link>
@@ -88,7 +84,7 @@ const Navbar = () => {
 
       {/* Mobile device */}
       <div className="flex md:hidden justify-between items-center">
-        <img className="w-7" src={logo} alt="" />
+        <img src={logo} alt="" />
         <div className="text-2xl" onClick={() => (open ? closeOffCanvas() : openOffCanvas())}>
           <span>{open ? <RxCross2 /> : <FaBars />}</span>
         </div>
@@ -106,9 +102,8 @@ const Navbar = () => {
             onClick={(e) => e.stopPropagation()}
           ></div>
           <div
-            className={`flex-col gap-5 absolute bg-black top-0 px-8 items-center pt-10 w-64 h-screen text-white flex md:hidden transition-all duration-300 ease-in-out ${
-              open ? 'left-0 z-50' : '-left-64'
-            }`}
+            className={`flex-col gap-5 absolute bg-black top-0 px-8 items-center pt-10 w-64 h-screen text-white flex md:hidden transition-all duration-300 ease-in-out ${open ? 'left-0 z-50' : '-left-64'
+              }`}
           >
             <div className="md:hidden grid items-center justify-between container mx-auto text-lg">
               <div className="grid gap-[35px] items-center">

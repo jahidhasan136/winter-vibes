@@ -13,23 +13,23 @@ const ShopEdit = () => {
             <div className='md:flex grid gap-3 md:gap-6 justify-center'>
                 <div className='relative ' data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img src={product1} alt="" />
+                    <img className='img_ani w-[267px] md:w-full h-[434px] md:h-full' src={product1} alt="" />
                     <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>women</p>
                 </div>
                 <div className='relative mx-auto md:mx-0' data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img src={product2} alt="" />
+                    <img className='img_ani' src={product2} alt="" />
                     <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>men</p>
                 </div>
                 <div className='grid gap-3 md:gap-6 mx-auto md:mx-0'>
                     <div className='relative' data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom">
-                        <img src={product3} alt="" />
+                        <img className='img_ani' src={product3} alt="" />
                         <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>bagpack</p>
                     </div>
                     <div className='relative' data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom">
-                        <img src={product4} alt="" />
+                        <img className='img_ani' src={product4} alt="" />
                         <p className='absolute left-5 bottom-7 bg-white py-1 px-[18px] rounded-lg text-[#7B7B7B]'>accessories</p>
                     </div>
                 </div>

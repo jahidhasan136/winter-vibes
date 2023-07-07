@@ -14,6 +14,14 @@
     color: white;
     font-size: 18px;
 }
+.btn_custom:hover {
+    border-radius: 70px;
+    background: var(--base, linear-gradient(180deg, #A346EF 0%, #722CFF 100%));
+    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.25);
+    padding: 23px 35px;
+    color: white;
+    font-size: 18px;
+}
 
 .btn_custom_black {
     border-radius: 70px;
@@ -23,8 +31,32 @@
     color: white;
     font-size: 18px;
 }
+.btn_custom_black:hover {
+    border-radius: 70px;
+    background: var(--80, #313131);
+    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.452);
+    padding: 23px 35px;
+    color: white;
+    font-size: 18px;
+}
 
 
 .font_caprasimo {
     font-family: 'Caprasimo', cursive;
 }
+
+.img_ani{
+    cursor: pointer;
+}
+.img_ani:hover{
+    scale: 1.05;
+    transition: all;
+    transition-duration: 1s;
+}
+
+@media (max-width: 768px) {
+    [data-aos] {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }

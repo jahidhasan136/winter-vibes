@@ -5,26 +5,22 @@ import docco from '../../../assets/sites/docco.png'
 
 const RecommendSites = () => {
     return (
-        <div className='mt-[70px] md:mt-[135px] container mx-auto md:flex grid justify-center gap-[60px] md:gap-[101px]'>
-            <div className='flex items-center gap-5' data-aos="fade-up"
+        <div className='mt-[40px] p-10 md:p-0 md:mt-[135px] container mx-auto md:flex grid grid-cols-2 md:grid-cols-4 justify-center gap-[30px] md:gap-[101px]'>
+            <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
                 <img src={mart} alt="" />
-                <h3 className='font-bold text-2xl'>Happy Mart</h3>
             </div>
-            <div className='flex items-center gap-5' data-aos="fade-up"
+            <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
                 <img src={emmad} alt="" />
-                <h3 className='font-bold text-2xl'>Emad Fashion</h3>
             </div>
-            <div className='flex items-center gap-5' data-aos="fade-up"
+            <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
                 <img src={lori} alt="" />
-                <h3 className='font-bold text-2xl'>Lori Cracker</h3>
             </div>
-            <div className='flex items-center gap-5' data-aos="fade-up"
+            <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
                 <img src={docco} alt="" />
-                <h3 className='font-bold text-2xl'>Docco Semims</h3>
             </div>
         </div>
     );

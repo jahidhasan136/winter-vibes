@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div className='container mx-auto md:flex grid gap-5 md:gap-0 justify-between mt-[90px] p-5'>
             <div className='flex items-center gap-5' data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
+     data-aos-anchor-placement="bottom-bottom">
                 <BiSolidPhoneCall className='text-4xl'></BiSolidPhoneCall>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Call Us Anytime</h2>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='flex items-center gap-5' data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
+     data-aos-anchor-placement="bottom-bottom">
                 <FaShippingFast className='text-4xl'></FaShippingFast>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Free Shipping</h2>
@@ -30,22 +30,21 @@ const Services = () => {
                 </div>
             </div>
             <div className='flex items-center gap-5' data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
+     data-aos-anchor-placement="bottom-bottom">
                 <TbReload className='text-4xl'></TbReload>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Free Returns</h2>
                     <p className='text-[#7B7B7B]'>30-days free return policy</p>
                 </div>
             </div>
-            <div className='flex items-center gap-5 relative' data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
+            <div className='flex items-center gap-5 relative'>
                 <BiSolidLock className='text-4xl'></BiSolidLock>
                 <div className='text-lg'>
                     <h2 className='font_caprasimo'>Secured Payment</h2>
                     <p className='text-[#7B7B7B]'>We accept all major credit cards.</p>
                 </div>
                 <div>
-                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-0 md:-right-36 -top-[45px] md:-top-[55px]">
+                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-3 md:-right-36 top-12 md:-top-[55px]">
                         <div className="avatar">
                             <div className="w-12">
                                 <img src={person1} />

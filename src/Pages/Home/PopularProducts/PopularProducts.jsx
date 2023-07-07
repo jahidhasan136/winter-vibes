@@ -20,7 +20,7 @@ const PopularProducts = () => {
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
                     <div className='relative'>
-                        <img className='mb-[10px] md:mb-5' src={product1} alt="" />
+                        <img className='mb-[10px] md:mb-5 img_ani' src={product1} alt="" />
                         <p className='text-lg px-[18px] py-1 bg-gradient-to-b from-[#722CFF] to-[#A346EF] inline-block rounded-[20px] text-white absolute top-[6px] left-[5px]'>Sale</p>
                     </div>
                     <h2 className='font-medium text-lg mb-[10px] font_caprasimo
@@ -42,7 +42,7 @@ const PopularProducts = () => {
                 </div>
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img className='mb-[10px] md:mb-5' src={product2} alt="" />
+                    <img className='mb-[10px] md:mb-5 img_ani' src={product2} alt="" />
                     <h2 className='font-medium text-lg mb-[10px] font_caprasimo
                 '>Men&#39;s for winter</h2>
                     <p className='text-lg md:mb-[10px]'><span className='font-normal text-[#7B7B7B]'>$500.00</span></p>
@@ -62,7 +62,7 @@ const PopularProducts = () => {
                 </div>
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img className='mb-[10px] md:mb-5' src={product3} alt="" />
+                    <img className='mb-[10px] md:mb-5 img_ani' src={product3} alt="" />
                     <h2 className='font-medium text-lg mb-[10px] font_caprasimo
                 '>Backpack for winter</h2>
                     <p className='text-lg md:mb-[10px]'><span className='font-normal text-[#7B7B7B]'>$500.00</span></p>
@@ -83,7 +83,7 @@ const PopularProducts = () => {
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
                     <div className='relative'>
-                        <img className='mb-[10px] md:mb-5' src={product4} alt="" />
+                        <img className='mb-[10px] md:mb-5 img_ani' src={product4} alt="" />
                         <p className='text-lg px-[18px] py-1 bg-[#313131] inline-block rounded-[20px] text-white absolute top-[6px] left-[5px]'>Sould Out</p>
                     </div>
                     <h2 className='font-medium text-lg mb-[10px] font_caprasimo
