@@ -19,9 +19,9 @@ const Navbar = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener('scroll', onNavScroll);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', onNavScroll);
+  // }, []);
 
   const toggleInputVisibility = () => {
     setInputVisible(true);

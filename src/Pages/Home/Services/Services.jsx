@@ -41,7 +41,7 @@ const Services = () => {
                     <p className='text-[#7B7B7B]'>We accept all major credit cards.</p>
                 </div>
                 <div>
-                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-14 md:-right-36 -top-[45px] md:-top-[55px]">
+                    <div className="avatar-group -space-x-6  bg-white p-[10px] rounded-[60px] shadow-lg shadow-[#4c099033] absolute -right-0 md:-right-36 -top-[45px] md:-top-[55px]">
                         <div className="avatar">
                             <div className="w-12">
                                 <img src={person1} />

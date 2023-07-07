@@ -22,13 +22,13 @@ const VideoSection = () => {
             <div className='md:flex gap-6 justify-center'>
                 <div className='relative p-7 md:p-0'>
                     <img src={picture1} alt="" />
-                    <div className='bg-[#313131] w-[369px] md:w-[752px] 
-                    md:h-[628px] h-[310px] rounded-lg md:rounded-[20px] absolute md:top-0 top-7 opacity-60'></div>
-                    <div className='absolute top-[60px] md:top-[150px] left-[148px] md:left-[248px] right-[248px] text-white text-center'>
+                    <div className='bg-[#313131] w-[320px] md:w-[752px] 
+                    md:h-[628px] h-[265px] rounded-lg md:rounded-[20px] absolute md:top-0 top-7 opacity-60'></div>
+                    <div className='grid justify-center absolute top-14 md:top-[150px] left-0 right-0 text-center text-white'>
                         <img onClick={openModal} className='mx-auto mb-[10px] md:mb-5 cursor-pointer' src={videoIcon} alt="" />
                         <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>
-                        <h3 className=' md:text-lg font_caprasimo mb-[10px] md:mb-5'>Amazon Essentials</h3>
-                        <h3 className='text-xl md:text-2xl font_caprasimo md:mb-10 w-[150px] md:w-[285px] mx-auto'>Get -50% From Winter Collection</h3>
+                        <h3 className='text-xs md:text-lg font_caprasimo mb-[10px] md:mb-5 mx-auto'>Amazon Essentials</h3>
+                        <h3 className='md:text-2xl font_caprasimo mb-5 md:mb-10 w-[150px] md:w-[285px] mx-auto'>Get -50% From Winter Collection</h3>
                         <button className='text-lg bg-[#DD2424] px-[20px] md:px-[35px] py-[5px] md:py-[23px] text-white rounded-xl md:rounded-full font-medium'>Subscribe Now</button>
                     </div>
                 </div>
