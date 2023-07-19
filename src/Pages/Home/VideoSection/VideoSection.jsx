@@ -4,6 +4,9 @@ import picture2 from '../../../assets/video/picture_2.png'
 import picture3 from '../../../assets/video/picture_3.png'
 import videoIcon from '../../../assets/video/videoIcon.png'
 import Modal from '../../Modal/Modal';
+import image1 from '../../../assets/video/image_1.png'
+import image2 from '../../../assets/video/image_2.png'
+import image3 from '../../../assets/video/image_3.png'
 
 const VideoSection = () => {
 
@@ -18,14 +21,15 @@ const VideoSection = () => {
     }
 
     return (
-        <div className="mt-[30px] md:mt-[120px] container mx-auto">
+        <div className="mt-[30px] md:mt-[120px] container mx-auto p-5">
             <div className='md:flex gap-6 justify-center'>
                 <div className='relative p-2 md:p-0' data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img src={picture1} alt="" />
-                    <div className='bg-[#313131] w-[360px] md:w-[752px] 
-                    md:h-[628px] h-[300px] rounded-lg md:rounded-[20px] absolute md:top-0 top-2 opacity-60'></div>
-                    <div className='grid justify-center absolute top-14 md:top-[150px] left-0 right-0 text-center text-white'>
+                    <div className='relative'>
+                        <img src={picture1} alt="" />
+                        <img className='absolute top-0' src={image1} alt="" />
+                    </div>
+                    <div className='grid justify-center absolute top-14 lg:top-[150px] left-0 right-0 text-center text-white'>
                         <img onClick={openModal} className='mx-auto mb-[10px] md:mb-5 cursor-pointer' src={videoIcon} alt="" />
                         <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>
                         <h3 className='text-xs md:text-lg font_caprasimo mb-[10px] md:mb-5 mx-auto'>Amazon Essentials</h3>
@@ -36,18 +40,22 @@ const VideoSection = () => {
                 <div className='grid gap-3 md:gap-6 justify-center' data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
                     <div className='relative'>
-                        <img src={picture2} alt="" />
-                        <div className='bg-[#313131] w-[364px] h-[302px] rounded-[20px] absolute top-0 opacity-60'></div>
+                        <div className='relative'>
+                            <img src={picture2} alt="" />
+                            <img className='absolute top-0' src={image2} alt="" />
+                        </div>
                         <div className='flex justify-center'>
-                            <img onClick={openModal} className='mb-5 absolute top-[106px] cursor-pointer' src={videoIcon} alt="" />
+                            <img onClick={openModal} className='mb-5 absolute top-1/3 cursor-pointer' src={videoIcon} alt="" />
                         </div>
                     </div>
                     <div className='relative' data-aos="fade-up"
                         data-aos-anchor-placement="bottom-bottom">
-                        <img src={picture3} alt="" />
-                        <div className='bg-[#313131] w-[364px] h-[302px] rounded-[20px] absolute top-0 opacity-60'></div>
+                        <div className='relative'>
+                            <img src={picture3} alt="" />
+                            <img className='absolute top-0' src={image3} alt="" />
+                        </div>
                         <div className='flex justify-center'>
-                            <img onClick={openModal} className='mb-5 absolute top-[106px] cursor-pointer' src={videoIcon} alt="" />
+                            <img onClick={openModal} className='mb-5 absolute top-1/3 cursor-pointer' src={videoIcon} alt="" />
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import product4 from '../../../assets/PopularProducts/product_4.png'
 
 const PopularProducts = () => {
     return (
-        <div className="mt-[60px] md:mt-[120px] container mx-auto">
+        <div className="mt-[60px] md:mt-[120px] container mx-auto p-5">
             <div className='text-center' data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
                 <h1 className='text-3xl md:text-[42px] font_caprasimo mb-[5px] md:mb-[10px]'><span className='font_caprasimo bg-clip-text text-transparent bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Popular</span> Product</h1>

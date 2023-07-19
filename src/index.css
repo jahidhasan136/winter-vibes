@@ -6,38 +6,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn_custom {
-    border-radius: 70px;
-    background: var(--base, linear-gradient(180deg, #722CFF 0%, #A346EF 100%));
-    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.25);
-    padding: 23px 35px;
-    color: white;
-    font-size: 18px;
+
+.btn_custom{
+    @apply bg-gradient-to-b from-[#722CFF] to-[#A346EF] font-medium rounded-full py-[23px] px-[35px] text-lg text-white inline-block transition hover:scale-[1.05];
 }
-.btn_custom:hover {
-    border-radius: 70px;
-    background: var(--base, linear-gradient(180deg, #A346EF 0%, #722CFF 100%));
-    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.25);
-    padding: 23px 35px;
-    color: white;
-    font-size: 18px;
+.btn_custom_black{
+    @apply bg-[#313131] font-medium rounded-full py-[23px] px-[35px] text-lg text-white inline-block transition hover:scale-[1.05];
 }
 
-.btn_custom_black {
-    border-radius: 70px;
-    background: var(--80, #313131);
-    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.25);
-    padding: 23px 35px;
-    color: white;
-    font-size: 18px;
-}
-.btn_custom_black:hover {
-    border-radius: 70px;
-    background: var(--80, #313131);
-    box-shadow: 0px 4px 15px 0px rgba(10, 10, 10, 0.452);
-    padding: 23px 35px;
-    color: white;
-    font-size: 18px;
+.bg_image1{
+    background: url(../src/assets/video/image_1.png) top center no-repeat;
+  background-size: cover;
 }
 
 
