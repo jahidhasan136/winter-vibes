@@ -46,7 +46,7 @@ const Navbar = () => {
     >
       {/* Desktop Device */}
       <div className="hidden md:flex items-center justify-between container mx-auto text-lg mt-[57px]">
-        <div className="flex gap-[115px] items-center">
+        <div className="flex gap-[50px] lg:gap-[115px] items-center p-5">
           <img src={logo} alt="" />
           <div className="flex gap-10">
             <Link>New</Link>
