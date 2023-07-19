@@ -17,7 +17,7 @@ const Home = () => {
                 <title>Home | Winter Vibes</title>
             </Helmet>
             <Banner></Banner>
-            {/* <Services></Services> */}
+            <Services></Services>
             <ShopEdit></ShopEdit>
             <PopularProducts></PopularProducts>
             <WinterLooks></WinterLooks>
