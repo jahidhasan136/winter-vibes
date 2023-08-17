@@ -49,11 +49,11 @@ const Navbar = () => {
         <div className="flex gap-[50px] lg:gap-[115px] items-center p-5">
           <img src={logo} alt="" />
           <div className="flex gap-10">
-            <Link>New</Link>
-            <Link>Dresses</Link>
-            <Link>Accessories</Link>
+            <Link className='hover:text-[#9941F3]'>New</Link>
+            <Link className='hover:text-[#9941F3]'>Dresses</Link>
+            <Link className='hover:text-[#9941F3]'>Accessories</Link>
             <div className="grid">
-              <p>Winter</p>
+              <Link className='hover:text-[#9941F3]'>Winter</Link>
               <div
                 className="-mt-12 ml-8 h-[35px] w-[35px] bg-cover bg-no-repeat"
                 style={{ backgroundImage: `url(${badge})` }}
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <p className="text-[10px] text-white ml-3">new</p>
               </div>
             </div>
-            <Link>Sale</Link>
+            <Link className='hover:text-[#9941F3]'>Sale</Link>
           </div>
         </div>
         <div className="flex items-center gap-6">
@@ -73,7 +73,7 @@ const Navbar = () => {
             )}
           </div>
           <div className="border border-[#7B7B7B] h-4"></div>
-          <div className="indicator">
+          <div className="indicator cursor-pointer">
             <span className="indicator-item rounded-full w-[18px] h-[18px] bg-gradient-to-b from-[#722CFF] to-[#A346EF] text-white flex justify-center items-center text-[10px]">
               2
             </span>
@@ -93,7 +93,7 @@ const Navbar = () => {
       {/* Off-canvas menu overlay */}
       {open && (
         <div
-          className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex justify-center items-center z-50"
+          className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex justify-center items-center z-50 transition-all"
           onClick={closeOffCanvas}
         >
           <div

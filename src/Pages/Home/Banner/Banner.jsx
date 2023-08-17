@@ -1,5 +1,5 @@
 import videoIcon from '../../../assets/banner/videoIcon.png'
-import model from '../../../assets/banner/model.png'
+import model from '../../../assets/banner/model.svg'
 import bg_half from '../../../assets/banner/bg_half.png'
 import star from '../../../assets/banner/star.png'
 import bg_circle from '../../../assets/banner/bg_circle.png'
@@ -26,11 +26,11 @@ const Banner = () => {
                 <p className='md:text-lg text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
                 <div className='flex items-center gap-7 mt-3 md:mt-10'>
                     <button className="btn_custom flex-shrink-0 -mr-3">Start Shoping</button>
-                    <div className='bg-white lg:p-5 rounded-full shadow-md'>
+                    <div className='bg-white p-5 rounded-full shadow-md'>
                         <img onClick={openModal} className='cursor-pointer' src={videoIcon} alt="" />
                         <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>
                     </div>
-                    <p className='text-lg font_caprasimo'>Play Video</p>
+                    <p className='text-lg font_caprasimo hidden lg:flex'>Play Video</p>
                 </div>
             </div>
             <div className='relative mt-12 md:mt-0'>
