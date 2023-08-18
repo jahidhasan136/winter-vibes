@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <li><Link href='/' className='transition hover:text-pink'>Sale</Link></li>
+              <li><Link href='/' className='transition hover:text-[#9941F3]'>Sale</Link></li>
             </ul>
           </div>
           <div className="hidden md:flex">
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <li><Link href='/' className='transition hover:text-pink'>Sale</Link></li>
+          <li><Link href='/' className='transition hover:text-[#9941F3]'>Sale</Link></li>
         </ul>
         <div className="md:hidden mt-5">
           <div className="grid items-center gap-6">
