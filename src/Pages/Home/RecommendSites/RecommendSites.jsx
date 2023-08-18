@@ -5,22 +5,22 @@ import docco from '../../../assets/sites/docco.png'
 
 const RecommendSites = () => {
     return (
-        <div className='mt-[40px] p-10 md:p-0 md:mt-[135px] container mx-auto grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-[30px] md:gap-[101px]'>
+        <div className='mt-[40px] p-10 md:p-0 md:mt-[135px] container mx-auto lg:flex grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-[30px] md:gap-[101px]'>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
-                <img className='mx-auto' src={mart} alt="" />
+                <img className='' src={mart} alt="" />
             </div>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
-                <img className='mx-auto' src={emmad} alt="" />
+                <img className='' src={emmad} alt="" />
             </div>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
-                <img className='mx-auto' src={lori} alt="" />
+                <img className='' src={lori} alt="" />
             </div>
             <div data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">
-                <img className='mx-auto' src={docco} alt="" />
+                <img className='' src={docco} alt="" />
             </div>
         </div>
     );

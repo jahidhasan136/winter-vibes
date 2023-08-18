@@ -15,32 +15,32 @@ const Services = () => {
         <div className='container mx-auto md:flex grid gap-5 md:gap-0 justify-between mt-[90px] p-5'>
             <div className='flex items-center gap-5' data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
-                <BiSolidPhoneCall className='text-4xl'></BiSolidPhoneCall>
+                <BiSolidPhoneCall className='text-[39px]'></BiSolidPhoneCall>
                 <div className='text-lg'>
-                    <h2 className='font_caprasimo'>Call Us Anytime</h2>
+                    <h2 className='font-semibold'>Call Us Anytime</h2>
                     <p className='text-[#7B7B7B]'>+1 &#40;250&#41; 444 5555</p>
                 </div>
             </div>
             <div className='flex items-center gap-5' data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
-                <FaShippingFast className='text-4xl'></FaShippingFast>
+                <FaShippingFast className='text-[39px]'></FaShippingFast>
                 <div className='text-lg'>
-                    <h2 className='font_caprasimo'>Free Shipping</h2>
+                    <h2 className='font-semibold'>Free Shipping</h2>
                     <p className='text-[#7B7B7B]'>When you spend $100+</p>
                 </div>
             </div>
             <div className='flex items-center gap-5' data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
-                <TbReload className='text-4xl'></TbReload>
+                <TbReload className='text-[39px]'></TbReload>
                 <div className='text-lg'>
-                    <h2 className='font_caprasimo'>Free Returns</h2>
+                    <h2 className='font-semibold'>Free Returns</h2>
                     <p className='text-[#7B7B7B]'>30-days free return policy</p>
                 </div>
             </div>
             <div className='flex items-center gap-5 relative'>
-                <BiSolidLock className='text-4xl'></BiSolidLock>
+                <BiSolidLock className='text-[39px]'></BiSolidLock>
                 <div className='text-lg'>
-                    <h2 className='font_caprasimo'>Secured Payment</h2>
+                    <h2 className='font-semibold'>Secured Payment</h2>
                     <p className='text-[#7B7B7B]'>We accept all major credit cards.</p>
                 </div>
                 <div>

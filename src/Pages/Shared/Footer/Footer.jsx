@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
             <div className='border-b border-[#C4C4C4] lg:w-[1160px] my-10 mx-auto'></div>
             <div className='md:flex grid items-center justify-center gap-10 lg:gap-[250px] pb-10'>
-                <div className='justify-center grid md:grid-cols-2 xl:grid-cols-4 gap-10 md:gap-9 mb-5 md:mb-0'>
+                <div className='justify-center flex md:grid-cols-2 xl:grid-cols-4 gap-10 md:gap-9 mb-5 md:mb-0'>
                     <img className='mx-auto' src={masterCard} alt="" />
                     <img className='mx-auto' src={visa} alt="" />
                     <img className='mx-auto' src={paypal} alt="" />
