@@ -35,6 +35,10 @@
     transition-duration: 1s;
 }
 
+.offcanvas.active {
+    left: 0;
+  }
+
 @media (max-width: 768px) {
     [data-aos] {
       opacity: 1 !important;

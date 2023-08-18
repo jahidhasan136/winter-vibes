@@ -19,7 +19,7 @@ const Banner = () => {
         setIsModalOpen(false)
     }
     return (
-        <div className='container mt-[35px] md:mt-[99px] mx-auto md:flex justify-between p-5 md:p-5'>
+        <div className='container mt-[35px] md:mt-[140px] mx-auto md:flex justify-between p-5 md:p-5'>
             <div className='md:w-6/12 xl:w-1/2'>
                 <h2 className='text-xl md:text-2xl mb-[6px] md:mb-[10px]'>Trendy Collection&#39;s</h2>
                 <h1 className="capitalize text-3xl lg:text-5xl xl:text-7xl mb-[10px] xl:mb-5 xl:leading-[100px] font_caprasimo">Discover <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Fashion</span> & build A <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Better</span> you</h1>
