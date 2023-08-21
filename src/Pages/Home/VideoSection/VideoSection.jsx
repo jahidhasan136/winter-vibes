@@ -23,8 +23,7 @@ const VideoSection = () => {
     return (
         <div className="mt-[30px] md:mt-[120px] container mx-auto p-5">
             <div className='md:flex gap-6 justify-center'>
-                <div className='relative p-2 md:p-0' data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom">
+                <div className='relative p-2 md:p-0' data-aos="fade-up">
                     <div className='relative'>
                         <img src={picture1} alt="" />
                         <img className='absolute top-0' src={image1} alt="" />
@@ -37,8 +36,7 @@ const VideoSection = () => {
                         <button className='text-lg bg-[#DD2424] px-[20px] md:px-[35px] py-[5px] md:py-[23px] text-white rounded-xl md:rounded-full font-medium'>Subscribe Now</button>
                     </div>
                 </div>
-                <div className='grid gap-3 md:gap-6 justify-center' data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom">
+                <div className='grid gap-3 md:gap-6 justify-center' data-aos="fade-up">
                     <div className='relative'>
                         <div className='relative'>
                             <img src={picture2} alt="" />
@@ -48,8 +46,7 @@ const VideoSection = () => {
                             <img onClick={openModal} className='mb-5 absolute top-1/3 cursor-pointer' src={videoIcon} alt="" />
                         </div>
                     </div>
-                    <div className='relative' data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom">
+                    <div className='relative' data-aos="fade-up">
                         <div className='relative'>
                             <img src={picture3} alt="" />
                             <img className='absolute top-0' src={image3} alt="" />

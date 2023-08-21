@@ -7,6 +7,21 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: "recoleta";
+    src: url("./assets/Recoleta-RegularDEMO.otf") format("otf");
+    font-weight: normal;
+    font-display: swap;
+}
+
+.trendy{
+    font-family: "recoleta";
+}
+
+body{
+    overflow-x: hidden;
+}
+
 .btn_custom{
     @apply bg-gradient-to-b from-[#722CFF] to-[#A346EF] font-medium rounded-full py-[23px] px-[35px] text-lg text-white inline-block transition hover:scale-[1.05] shadow-lg shadow-[#0a0a0a40];
 }

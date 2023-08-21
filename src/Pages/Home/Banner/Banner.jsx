@@ -21,7 +21,7 @@ const Banner = () => {
     return (
         <div className='container mt-[35px] md:mt-[140px] mx-auto md:flex justify-between p-5 md:p-5'>
             <div className='md:w-6/12 xl:w-1/2'>
-                <h2 className='text-[#313131] text-xl md:text-2xl mb-[6px] md:mb-[10px]'>Trendy Collection&#39;s</h2>
+                <h2 className='text-[#313131] text-xl md:text-2xl mb-[6px] md:mb-[10px] trendy'>Trendy Collection&#39;s</h2>
                 <h1 className="capitalize text-3xl lg:text-5xl xl:text-7xl mb-[10px] xl:mb-5 xl:leading-[100px] font_caprasimo">Discover <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Fashion</span> & build A <span className='font_caprasimo bg-clip-text text-transparent  bg-gradient-to-b from-[#722CFF] to-[#A346EF]'>Better</span> you</h1>
                 <p className='md:text-lg text-[#7B7B7B]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin Literature from 45 BC</p>
                 <div className='flex items-center gap-7 mt-3 md:mt-10'>
